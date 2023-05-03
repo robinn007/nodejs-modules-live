@@ -11,7 +11,7 @@ const outputFilepath = path.join("output",fileName);
 
 console.log("Processing file:",inputFilePath);
 if (fs.existsSync(inputFilePath)){
-const data =  fs.readFileSync("input/cart1.json","utf-8");
+const data =  fs.readFileSync("input/cart2.json","utf-8");
 const jsonData = JSON.parse(data);
 console.log(jsonData);
 
